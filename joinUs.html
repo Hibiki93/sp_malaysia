@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>Supplier Malaysia Portal | Home</title>
+
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="css/core-style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+
+<body>
+    <!-- Search Wrapper Area Start -->
+    <nav class="sm_search_area navbar d-none d-md-block">
+        <div class="container-fluid">
+            <div class="navbar-header col-12 col-md-6 col-lg-3">
+                <a href="index.html">
+                    <img src="img/core-img/logo.gif" alt="">
+                </a>
+            </div>
+            <div class="search-content col-12 col-md-6 col-lg-5">
+                <form action="#" method="get">
+                    <input type="search" name="search" id="search" placeholder="Type your keyword...">
+                    <button type="submit">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <!-- Search Wrapper Area End -->
+
+    <!-- ##### Main Content Wrapper Start ##### -->
+    <div class="main-content-wrapper d-flex clearfix">
+
+        <!-- Mobile Nav (max width 767px)-->
+        <div class="mobile-nav">
+            <!-- Navbar Brand -->
+            <div class="sm-navbar-brand">
+                <a href="index.html">
+                    <img src="img/core-img/logo.gif" alt="">
+                </a>
+            </div>
+            <!-- Navbar Toggler -->
+            <div class="m-search">
+                <i class="fa fa-search" onclick="show_search()"></i>
+            </div>
+            <div class=" sm-navbar-toggler ">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div>
+            </div>
+            <div id="search_bar" class="search-content">
+                <form action="#" method="get">
+                    <input type="search" name="search" id="search" placeholder="Type your keyword...">
+                </form>
+            </div>
+        </div>
+
+        <!-- Header Area Start -->
+        <header class="header-area clearfix">
+            <!-- Close Icon -->
+            <div class="nav-close">
+                <i class="fa fa-close" aria-hidden="true"></i>
+            </div>
+            <!-- Logo -->
+            <!-- <div class="d-none d-md-block sm-logo mb-15">
+                <a href="index.html"><img src="img/core-img/logo.gif" alt=""></a>
+            </div> -->
+            <!-- SM Nav -->
+            <nav class="sm-nav">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="category-automotive">Category</a>
+                    </li>
+                    <li>
+                        <a href="category-supplier.html">Supplier</a>
+                    </li>
+                    <!-- <li><a href="#" class="search-nav"><i class="fa fa-search"></i> Search</a></li> -->
+                </ul>
+            </nav>
+            <div class="sm-btn-group mb-250"></div>
+            <!-- Button Group -->
+            <div class="sm-btn-group mb-30">
+                <a href="#">EN</a>&nbsp |&nbsp
+                <a href="#">BM</a>&nbsp |&nbsp
+                <a href="#" style="font-family: 'Noto Sans SC Sliced', sans-serif;">中文</a>&nbsp
+                <a href="joinUs.html" class="btn sm-btn mb-15">Join Us</a>
+                <ul class="sm-nav">
+                    <li style="font-size:.8rem">We current have</li>
+                    <li style="font-size:.8rem">Total Suppliers
+                        <strong style="color:#fbb710;">2,589</strong>,</li>
+                    <li style="font-size:.8rem">Total Products
+                        <strong style="color:#fbb710;">725,475</strong>
+                    </li>
+                </ul>
+            </div>
+            <!-- Social Button -->
+            <div class="social-info d-flex justify-content-between">
+                <a href="#">
+                    <i class="fa fa-pinterest" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+            </div>
+        </header>
+        <!-- Header Area End -->
+
+        <div class="form-table-area">
+            <div class="container-fluid">
+                <div class="main-content-wrapper clearfix">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <div class="cart-title">
+                                <h2>Join Us and list your product here</h2>
+                                <h5 class="text-left">Total Supplier with us.</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-6 mb-2">
+
+                            <iframe src="https://maps.newpages.com.my/v2/template/newpages-maps.html" frameborder="0" width="100%" height="95%"></iframe>
+                        </div>
+
+                        <div class="col-md-12 col-lg-6">
+
+
+
+
+                            <form action="#" method="post" id="joinUs">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <input type="text" class="form-control" id="first_name" value="" placeholder="First Name" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="text" class="form-control" id="last_name" value="" placeholder="Last Name" required>
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <input type="text" class="form-control" id="company" placeholder="Company Name" value="">
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <input type="email" class="form-control" id="email" placeholder="Email" value="">
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <select class="w-100" id="country">
+                                            <option value="usa">Malaysia</option>
+                                            <option value="uk">Singapore</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <input type="text" class="form-control" id="street_address" placeholder="Address" value="">
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <input type="text" class="form-control" id="city" placeholder="City" value="">
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="text" class="form-control" id="zipCode" placeholder="Zip Code" value="">
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="text" class="form-control" id="phone_number" min="0" placeholder="Phone No" value="">
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <textarea name="comment" class="form-control w-100" id="comment" cols="30" rows="10" placeholder="Leave a message"></textarea>
+                                    </div>
+
+                                    <div class=" col-md-12 col-lg-9 mb-1">
+                                        <div class="d-block ">
+                                            <div class="g-recaptcha float-left" data-sitekey="6Ldqsm4UAAAAACkGpt362FUTOubgWAN5bZMKT2xa" style="transform:scale(0.8);-webkit-transform:scale(0.8);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 d-block mb-2">
+                                        <button class="btn sm-btn float-left" onclick="submit()" style="min-width:8rem;">Submit</button>
+                                    </div>
+                                </div>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- ##### Main Content Wrapper End ##### -->
+
+
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer_area clearfix">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Single Widget Area -->
+                <div class="col-12 col-lg-4">
+                    <div class="single_widget_area">
+                        <!-- Logo -->
+                        <div class="footer-logo mr-50">
+                            <a href="index.html">
+                                <img src="img/core-img/logo.gif" alt="">
+                            </a>
+                        </div>
+                        <!-- Copywrite Text -->
+                        <p class="copywrite">
+                            Copyright &copy;
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script> Newpages Network Sdn Bhd. All rights reserved</p>
+                    </div>
+                </div>
+                <!-- Single Widget Area -->
+                <div class="col-12 col-lg-8 text-right">
+                    <div class="single_widget_area">
+                        <!-- Footer Menu -->
+                        <div class="footer_menu">
+                            <a href="joinUs.html" class="btn sm-btn mb-15">Join Us</a>
+                            <ul class="text-right">
+                                <li style="font-size:.8rem; color:white;">We current have</li>
+                                <li style="font-size:.8rem; color:white;">Total Suppliers
+                                    <strong style="color:#fbb710;">2,589</strong>,</li>
+                                <li style="font-size:.8rem; color:white;">Total Products
+                                    <strong style="color:#fbb710;">725,475</strong>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- ##### jQuery (Necessary for All JavaScript Plugins) ##### -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- My Function -->
+    <script src="js/joinUs.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+</body>
+
+</html>
